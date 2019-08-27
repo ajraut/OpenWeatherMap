@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)				
 @CucumberOptions(features="features", glue={""}, 
           plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}
-       // ,tags={"@Test2"}
+        ,tags={"@Test2"}
 )
 public class Runner {
 
