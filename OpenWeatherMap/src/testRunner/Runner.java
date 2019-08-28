@@ -1,4 +1,4 @@
-package com.owm.testRunner;
+package testRunner;
 
 
 import java.io.File;
@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)				
 @CucumberOptions(features="features", glue={""}, 
           plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}
-        ,tags={"@Test2"}
+        ,tags={"@Test1"}
 )
 public class Runner {
 
